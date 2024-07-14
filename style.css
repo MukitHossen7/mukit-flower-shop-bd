@@ -218,5 +218,23 @@ text-align: center;
      .feature-card .card-three{
       padding: 60px 48px 11px
      }
-     
+     /* Help Secction Responsive */
+  .help-container{
+    width: 100%;
+    margin-top: 141px;
+  }
+  .help-area{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0px;
+  }
+  .box-one, .box-two, .box-three{
+    width: 100%;
+  }
+.box-three span{
+  text-align: center;
+  display: block;
+}
     }
