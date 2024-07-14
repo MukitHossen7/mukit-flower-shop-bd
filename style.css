@@ -132,6 +132,32 @@ margin-bottom: 32px;
 }
     /*  Feature CSS End */
 
+    /* Help Secction CSS Start */
+.help-container{
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+   width:1152px;
+   margin: 0 auto;
+   margin-bottom: 140px;
+}
+.help-area{
+  display: flex;
+  gap: 90px;
+ padding: 86px 175px; 
+}
+.box-one, .box-two, .box-three span{
+  color: rgba(39, 39, 39, 0.8);
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+text-align: center;
+}
+.img-three{
+  text-align: center;
+}
+/* Help Secction CSS End */
+
 
     /* Responsive CSS  */
     /* Banner Section */
@@ -141,7 +167,7 @@ margin-bottom: 32px;
         gap: 50px;
       }
       .banner-text{
-        width: 50%;
+        width: 40%;
 
       }
       .banner-text h1,p,button{
@@ -158,4 +184,39 @@ margin-bottom: 32px;
       .banner-text h1{
             font-size: 50px;
       }
+      /* Feature CSS Responsive */
+     .feature-card{
+      flex-direction: column;
+     }
+     .feature-area{
+      width:100%;
+      margin: 0px;
+
+     }
+     .feature-taxt{
+      width: 100%;
+     }
+     .feature-card{
+      justify-content: center;
+      align-items: center;
+     }
+     .card-one, .card-two, .card-three{
+       width: 50%;
+       height: 50%;
+       margin: 0 auto;
+     }
+     .card-one img, .card-two img, .card-three img{
+      width: 100%;
+      height: 100%;
+     }
+     .feature-card .card-one{
+      padding: 52px 31px 0 31px;
+     }
+     .feature-card .card-two{
+      padding: 73px 32px 13px
+     }
+     .feature-card .card-three{
+      padding: 60px 48px 11px
+     }
+     
     }
